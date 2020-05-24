@@ -24,7 +24,7 @@ td a:hover {
     color: white;
 }
 
-.r-click tr:hover {
+.r-click tbody tr:hover {
     background-color: #777777;
 }
 
@@ -55,9 +55,13 @@ td a:hover {
 }
 
 .make-short {
-    width: 60%;
+    width: 80%;
 }
 
 .make-form-short {
     width: 45%;
+}
+
+tbody .clickable:hover {
+    cursor: pointer;
 }
